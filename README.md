@@ -4,30 +4,33 @@ Domain Name Service on the polygon blockchain
 
 This repository contains the smart contract code for a domain name service that has been deployed on the Polygon blockchain. The domain name service allows users to register and manage their own domain names on the Polygon blockchain.
 
-Features
+
+# Features
 
 
-Register new domain names
-Transfer ownership of a domain name to another address
-Set the resolver for a domain name
-Set the address associated with a domain name
+1. Register new domain names
+2. Transfer ownership of a domain name to another address
+3. Set the dns records for a domain name
+4. Set the address associated with a domain name
 
 
-Requirements
-A Polygon wallet, such as Metamask or WalletConnect
-The Polygon SDK installed on your machine
+## Requirements
+A wallet, such as Metamask or WalletConnect
 
-Installation
+
+## Installation
 Clone this repository:
 
-git clone https://github.com/your-username/domain-name-service.git
+git clone https://github.com/frankcodedKing/PolygonDomainNameService
 
-Install the dependencies:
+## Install the dependencies:
 
 npm install
-Compile the smart contract:
+
+## Compile the smart contract:
 
 npm run compile
-Deploy the smart contract to the Polygon blockchain:
 
-npm run deploy
+## Deploy the smart contract to the Polygon blockchain:
+
+npx hardhat run scripts/run.js
